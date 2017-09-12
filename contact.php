@@ -24,7 +24,8 @@ define('__MESSAGE_EMPTY_FIELDS__', "Please fill out  all fields");
 
 //E-mail validation
 function check_email($email){
-    if(!@eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", $email)){
+    // if(!@preg_match("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", $email)){
+    if(!@preg_match("/^[a-zA-Z0-9]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]/", $email)){
         return false;
     } else {
         return true;

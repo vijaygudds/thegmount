@@ -9555,3 +9555,26 @@ button.mfp-close:hover {
 header nav.navbar #menu .menu-holder ul li a, header nav.navbar #sidemenu .menu-holder ul li a, header nav.navbar #menu-classic .menu-holder ul li a{
   margin-left:20px;
 }
+
+header.transparent.fixed-top{
+  background: #eb5f24 none repeat scroll 0 0;
+}
+header.fixed{
+  background: #eb5f24 none repeat scroll 0 0!important;
+}
+  header.transparent{
+    background-color:#eb5f24 none repeat scroll 0 0; 
+  }
+
+header nav.navbar.white #menu .menu-holder ul li > a.active-item, header nav.navbar.white #sidemenu .menu-holder ul li > a.active-item, header nav.navbar.white #menu-classic .menu-holder ul li > a.active-item {
+    color: white;
+    font-weight: 400;
+}  
+
+#page-content #flexslider ul li .text p.heading, #page-content #flexslider-nav ul li .text p.heading{
+  font-size: 18px;
+}
+
+.content-section .text1{
+  padding: 50px 50px 20px;
+}
