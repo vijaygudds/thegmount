@@ -5098,10 +5098,10 @@ header nav.navbar.white #search-box .form-input i {
   transition: all .6s ease-in;
 }
 
-#page-content #news .single-news:hover article .image:after {
+/*#page-content #news .single-news:hover article .image:after {
   opacity: 1;
   transition: opacity .4s ease;
-}
+}*/
 
 #page-content #news .single-news:hover article span.category, #page-content #news .single-news:hover article span.date {
   color: #85858A;
